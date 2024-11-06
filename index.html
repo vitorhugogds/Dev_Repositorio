@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/bootstrap.css">
+</head>
+<body>
+    <header>
+        <div id="menuFull">
+            <div id="menu">
+                <div id="pesquisa">
+                    <input placeholder="Pesquisa" type="text" id="barra-pesquisa">
+                </div>
+
+                <div id="img-central">
+                    <img src="images/images.jpg" alt="" width="100px">
+                </div>
+
+                <div id="menu-laterais">
+                    <div id="login">
+                        <a href="#"> 
+                            <button>
+                                <a href="#">Login</a>
+                            </button>
+                        </a> 
+                    </div>
+
+                    <div id="repositorios">
+                            <button>
+                                <a href="">Repositórios</a>
+                            </button>
+                    </div>
+                    <div id="tema">
+                        <form class="d-flex" role="search">
+                            <button id="theme" class="btn btn-outline-dark mx-2" onclick="(theme)" type="button">
+                              <img id="themeImg" src="icons/sun-fill.svg" alt="">
+                          </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <!-- CARROUSEL -->
+
+        <div id="carouselExampleCaptions" class="carousel slide w-10" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/cachoeira.jpg" class="d-block w-100" alt="..." style="max-height: 500px; object-fit: cover;">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="images/neom-eOWabmCNEdg-unsplash.jpg" class="d-block w-100" alt="..." style="max-height: 500px; object-fit: cover;">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="images/natureza.jpg" class="d-block w-100" alt="..." style="max-height: 500px; object-fit: cover;">
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+        </div>
+                        
+        <!-- FIM CARROUSEL -->
+
+
+        <h1>SOBRE NÓS</h1>
+        <div id="sobre">
+            <div id="ideia">
+                <div id="ideiaDesc">
+                    <h2>NOSSA IDEIA</h2>
+                    <h3>A criação deste site nasceu da vontade de <br> compartilhar conhecimento e expor ao <br> mundo  meus projetos e ideias. Este espaço <br> é um repositório que abriga o resultado de <br> horas de estudo, experimentação e dedicação, <br> onde cada projeto reflete um pouco do que <br> aprendi e construí ao longo do tempo.</h3>
+                </div>
+                <div id="missaoImg">
+                    <img src="images/cachoeira.jpg" alt="Missão da equipe.IMG">
+                </div>
+            </div>
+
+
+
+
+            <div id="help">
+                <div id="helpImg">
+                    <img src="images/natureza.jpg" alt="">
+                </div>
+                <div id="helpDesc">
+                    <h2>PROJETOS RECENTES</h2>
+                    <h3>Aqui compartilho meus projetos mais recentes, que refletem as novas habilidades e conhecimentos que adquirimos. Cada projeto é uma oportunidade de explorar diferentes tecnologias e aplicar soluções inovadoras para problemas reais. Desde o desenvolvimento de interfaces intuitivas até a criação de ferramentas eficientes.</h3>
+                </div>
+            </div>
+
+
+
+            <div id="natureza">
+                <div id="naturezaDesc">
+                    <h2>TECNOLOGIAS E FERRAMENTAS</h2>
+                    <h3>Contamos com uma variedade de <br> ferramentas, tecnologias e linguagens <br> que me ajudam a transformar ideias na <br> realidade. Linguagens Dominantes: <br> Minhas principais linguagens de <br> programação  incluem Python, JavaScript, <br> C++, C#, HTML e CSS, que utiliza para <br> desenvolver tanto o backend quanto o <br> frontend de aplicações robustas e funcionais.</h3>
+                </div>
+                <div id="naturezaImg">
+                    <img src="images/neom-eOWabmCNEdg-unsplash.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div id="redes-sociais">
+            <img src="icons/instagram.svg"><a href="https://www.instagram.com/vitorhugogds/">Victor Hugo</a>
+            <img src="icons/instagram.svg"><a href="https://www.instagram.com/g4briel_rd/">Gabriel Dias</a>
+        </div>
+
+        <h4>Todos os direitos reservados à @vitorhugogds & @g4briel_rd</h4>
+    </footer>
+
+
+
+
+
+    <script src="scripts/script.js"></script>
+    <script src="scripts/theme.js"></script>
+    <!-- bootstrap -->
+     <script src="scripts/bootstrap.bundle.js"></script>
+</body>
+</html>

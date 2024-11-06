@@ -1,0 +1,164 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+:root{
+    --azulPrincipal: #3D48DB;
+    --verde: #2EC224;
+    --vermelho: #C2242E;
+    --azulTríade: #242ec2;
+
+}
+
+/* HEADER */
+
+header, footer{
+    padding: 25px;
+    background-color: var(--azulPrincipal);
+}
+
+#menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+#pesquisa{
+    display: flex;
+    align-items: center; 
+}
+
+#pesquisa input{
+    width: 170px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    border: 3px var(--verde) solid;
+}
+
+#menu-laterais {
+    display: flex;
+    align-items: center; 
+}
+
+#login button{
+    width: 80px;
+    padding: 5px;
+    border-radius: 6px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    margin: 10px;
+    border: 3px var(--verde) solid;
+}
+
+#login a, #repositorios a{
+    text-decoration: none;
+    color: black;
+}
+
+#repositorios button{
+    width: 130px;
+    padding: 5px;
+    border-radius: 6px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    border: 3px var(--verde) solid;
+}
+
+/* MAIN */
+
+h1, h2, h3, p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+h1{
+    text-align: center;
+}
+
+#sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ideia{
+    display: flex;
+}
+
+#ideiaDesc{
+    width: 800px;
+    padding: 30px 0px 0px 200px;
+    margin: 10px;
+}
+
+#missaoImg img{
+    width: 700px;
+    height: 350px;
+    padding: 30px 200px 10px 0px;
+    border-radius: 30px;
+}
+
+
+
+
+
+#help{
+    display: flex;
+}
+
+#helpImg img{
+    width: 700px;
+    height: 350px;
+    padding: 30px 0px 0px 200px;
+    border-radius: 30px;
+}
+
+#helpDesc{
+    width: 700px;
+    padding: 30px 200px 0px 0px;
+    margin-left: 100px;
+}
+
+
+
+
+
+#natureza{
+    display: flex;
+}
+
+#naturezaDesc{
+    width: 800px;
+    padding: 30px 0px 0px 200px;
+}
+
+#naturezaImg img{
+    width: 700px;
+    height: 370px;
+    padding: 30px 200px 10px 0px;
+    border-radius: 30px;
+}
+
+
+/* FOOTER */
+
+#redes-sociais{
+    display: flex;
+    justify-content: center;
+}
+
+#redes-sociais a{
+    text-decoration: none;
+    color: black;
+    margin: 0px 10px 0px 10px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+h4{
+    text-align: center;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+
+}
