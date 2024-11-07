@@ -18,6 +18,10 @@ header, footer{
     background-color: var(--azulPrincipal);
 }
 
+input, button, a{
+    background-color: white;
+}
+
 #menu{
     display: flex;
     justify-content: space-between;
@@ -35,6 +39,22 @@ header, footer{
     font-family: 'Courier New', Courier, monospace;
     font-size: larger;
     border: 3px var(--verde) solid;
+}
+
+form{
+    display: flex;
+}
+
+#buscar{
+    padding: 10px;
+}
+
+#buscar button{
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+    border: var(--verde) 2px solid;
+    color: black;
 }
 
 #menu-laterais {
@@ -73,6 +93,7 @@ h1, h2, h3, p{
 }
 
 h1{
+    padding: 20px 0px 0px 0px;
     text-align: center;
 }
 
@@ -103,18 +124,18 @@ h1{
 
 
 
-#help{
+#projeto{
     display: flex;
 }
 
-#helpImg img{
+#projetoImg img{
     width: 700px;
     height: 350px;
     padding: 30px 0px 0px 200px;
     border-radius: 30px;
 }
 
-#helpDesc{
+#projetoDesc{
     width: 700px;
     padding: 30px 200px 0px 0px;
     margin-left: 100px;
@@ -124,16 +145,16 @@ h1{
 
 
 
-#natureza{
+#tecnologia{
     display: flex;
 }
 
-#naturezaDesc{
+#tecnologiaDesc{
     width: 800px;
-    padding: 30px 0px 0px 200px;
+    padding: 30px 0px 20px 200px;
 }
 
-#naturezaImg img{
+#tecnologiaImg img{
     width: 700px;
     height: 370px;
     padding: 30px 200px 10px 0px;
