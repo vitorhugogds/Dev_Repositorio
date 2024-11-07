@@ -1,0 +1,108 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+:root{
+    --azulPrincipal: #3D48DB;
+    --verde: #2EC224;
+    --vermelho: #C2242E;
+    --azulTríade: #242ec2;
+
+}
+
+body{
+    background-image: linear-gradient( to right, var(--azulPrincipal), transparent );
+}
+
+/* MAIN */
+
+main{
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    min-height: 100vh;
+}
+
+#login{
+    background-color: white; 
+    width: 70%;
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 25px 5px black;
+}
+
+#logar{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    padding: 100px;
+}
+
+form h1{
+    padding: 0px 0px 25px 0px;
+}
+
+#inputs input{
+    margin: 0px 0px 0px 25px;
+    width: 450px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+#senhas{
+    margin: 40px;
+    padding: 0px 0px 0px 20px;
+}
+
+#senhas input{
+    margin: 10px;
+}
+
+#inputs button{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#inputs a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 0px 0px 0px;
+}
+
+#banner{
+    width: 530px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    background-image:url(../icons/reading.svg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    padding: 10px;
+}
+
+#banner button{
+    height: 35px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+#cadastro{
+    padding: 50px 0px 0px 0px;
+}
+
+#banner a{
+    text-decoration: none;
+    color: black;
+}
